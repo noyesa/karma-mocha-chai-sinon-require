@@ -1,0 +1,29 @@
+{
+  "name": "karma-mocha-chai-sinon-require",
+  "version": "0.0.0",
+  "description": "A demo testing project using karma, mocha, chai, sinon and require",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/karma/bin/karma start karma.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/noyesa/karma-mocha-chai-sinon-require.git"
+  },
+  "author": "Andrew Noyes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/noyesa/karma-mocha-chai-sinon-require/issues"
+  },
+  "homepage": "https://github.com/noyesa/karma-mocha-chai-sinon-require",
+  "devDependencies": {
+    "karma": "^0.12.31",
+    "karma-chrome-launcher": "^0.1.8",
+    "karma-firefox-launcher": "^0.1.4",
+    "karma-mocha": "^0.1.10",
+    "karma-phantomjs-launcher": "^0.1.4",
+    "karma-requirejs": "^0.2.2",
+    "mocha": "^2.2.4",
+    "requirejs": "^2.1.17"
+  }
+}

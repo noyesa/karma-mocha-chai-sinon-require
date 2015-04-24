@@ -1,0 +1,22 @@
+{
+  "name": "karma-mocha-chai-sinon-require",
+  "version": "0.0.0",
+  "homepage": "https://github.com/noyesa/karma-mocha-chai-sinon-require",
+  "authors": [
+    "Andrew Noyes <anoyes@slideshare.com>"
+  ],
+  "description": "A demo testing project using karma, mocha, chai, sinon, and require",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "chai": "~2.2.0",
+    "sinon": "http://sinonjs.org/releases/sinon-1.14.1.js"
+  }
+}
